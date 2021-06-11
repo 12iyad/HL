@@ -1,5 +1,15 @@
 <div class="card" style="width: fit-content;">
-  <img class= "propImg" src="assets/images/house_default.jpg">
+  <div class="card-img-wrapper">
+    <img class= "propImg" src="assets/images/house_default.jpg">
+    <ul class="list-inline text-center member-icons animate">
+      <li class="list-inline-item">
+        <button class="btn btn-primary"><i class="fas fa-envelope"></i></button>
+      </li>
+      <li class="list-inline-item">
+        <button class="btn btn-primary"><i class="fas fa-phone-square-alt"></i></button>
+      </li>
+    </ul>
+  </div>
   <div class="card-body p-2">
     <h2>{{property.Name}}</h2>
     <h3>{{property.Type}}</h3>
