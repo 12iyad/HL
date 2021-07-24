@@ -1,6 +1,8 @@
 .card-img-wrapper{
   overflow: hidden;
   position: relative;
+  width: 400px;
+  height: 300px;
 
 }
 

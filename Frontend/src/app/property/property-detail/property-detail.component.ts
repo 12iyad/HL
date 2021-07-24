@@ -24,7 +24,7 @@ public propertyId: number;
 
   onSelectNext() {
     this.propertyId += 1;
-    this.router.navigate(['property-detail/',this.propertyId])
+    this.router.navigate(['property-detail',this.propertyId])
 
 
   }
