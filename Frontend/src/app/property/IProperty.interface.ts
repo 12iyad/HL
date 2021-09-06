@@ -1,6 +1,6 @@
 export interface IProperty {
   Id: number;
-  SellRent: number;
+  ListingType: string;
   Name: string;
   Type: string;
   Price: number;
