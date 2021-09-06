@@ -1,6 +1,6 @@
 [{
   "Id":1,
-  "SellRent":1,
+  "ListingType":"Sell",
   "Name":"10 Faraday Circle",
   "Type":"House",
   "Price":250000,
@@ -9,7 +9,7 @@
 },
 {
   "Id":2,
-  "SellRent":1,
+  "ListingType":"Sell",
   "Name":"45 Glocester Road",
   "Type":"House",
   "Price":400000,
@@ -18,7 +18,7 @@
 },
 {
   "Id":3,
-  "SellRent":1,
+  "ListingType":"Sell",
   "Name":"132 Pearl Street",
   "Type":"Villa",
   "Price":2000000,
@@ -27,7 +27,7 @@
 },
 {
   "Id":4,
-  "SellRent":2,
+  "ListingType":"Rent",
   "Name":"Macro Apartment",
   "Type":"Apartment",
   "Price":140000,
@@ -36,7 +36,7 @@
 },
 {
   "Id":5,
-  "SellRent":1,
+  "ListingType":"Sell",
   "Name":"Vinland Mansion",
   "Type":"Mansion",
   "Price":9000000
@@ -44,7 +44,7 @@
 },
 {
   "Id":6,
-  "SellRent":2,
+  "ListingType":"Rent",
   "Name":"Sunside Complex",
   "Type":"Apartment",
   "Price":1300000,

@@ -10,16 +10,16 @@ import { IProperty } from '../IProperty.interface';
   styleUrls: ['./property-list.component.css']
 })
 export class PropertyListComponent implements OnInit {
-  SellRent = 1;
+  ListingType = "Sell";
   properties: Array<IProperty>;
 
   constructor(private route: ActivatedRoute, private housingService: HousingService) { }
 
   ngOnInit(): void {
     if(this.route.snapshot.url.toString()){
-      this.SellRent=2;
+      this.ListingType="Rent";
     }
-    this.housingService.getAllProperties(this.SellRent).subscribe(
+    this.housingService.getAllProperties(this.ListingType).subscribe(
       data=>{
         this.properties=data;
         console.log(data);
