@@ -1,1 +1,1 @@
-Testing grounds for practicing frontend development by using HTML, CSS and Angular
+Project on understanding the basic grounds of Frontend development using Angular.
