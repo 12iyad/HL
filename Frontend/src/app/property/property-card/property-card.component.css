@@ -6,10 +6,6 @@
 
 }
 
-.card{
-  
-
-}
 
 .card:hover img{
   transform: scale(1.2,1.2);
@@ -37,7 +33,7 @@
 
 }
 
-.card-img-wrapper:hover .member-icons{
+.card:hover .member-icons{
   bottom: 0;
 
 }
